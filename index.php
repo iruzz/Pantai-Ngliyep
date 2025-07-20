@@ -19,7 +19,7 @@
             <li><a href="#profil">Deks</a></li>
             <li><a href="#wisata">Wisata</a></li>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="login.html">Pesan Tiket</a></li>
+            <li><a href="pesanTiket.php">Pesan Tiket</a></li>
         </ul>
     </div>
 
