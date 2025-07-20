@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 7rem;
+    background-image: url('assets/pantai-ngliyep-profile1653619325.jpeg');
+    background-size: cover;
+}
+
+.container {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #064650;
+    /* height: max-content; */
+    width: 500px;
+}
+
+form {
+    /* gap: 15px; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    margin: 2rem 0;
+    color: #006e7f;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form input, textarea, button, select {
+    height: 50px;
+    border-radius: 10px;
+    /* width: 95%; */
+    margin: 10px;
+    border: 1px solid #ccc;
+}
