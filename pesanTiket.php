@@ -19,7 +19,7 @@ if(isset($_POST["submit"])) {
     <title>Tiket Camping di Pantai Ngliyep</title>
     <link rel="stylesheet" href="styles/p.css">
 </head>
-<body backgro>
+<body>
     <div class="container">
         <h2>Pemesanan Tiket Camping di Pantai</h2>
         <form action="" method="post">
