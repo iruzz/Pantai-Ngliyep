@@ -11,7 +11,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 7rem;
-    background-image: url('assets/pantai-ngliyep-profile1653619325.jpeg');
+    background-image: url("../assets/bg.jpeg");
     background-size: cover;
 }
 

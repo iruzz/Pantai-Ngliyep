@@ -57,7 +57,7 @@ ul li a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .06)),url('assets/pantai-ngliyep-profile1653619325.jpeg');
+    background-image:linear-gradient(rgba(0,0,0, 0.6), rgba(0,0,0, .06)),url("../assets/bg.jpeg");
     -webkit-mask-image: linear-gradient(rgba(0,0,0,1) 80%, rgba(0,0,0,0));
     
 }
