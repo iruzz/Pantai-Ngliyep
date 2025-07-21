@@ -1,6 +1,8 @@
 <?php 
 require 'functions.php';
 $hitam = pelanggan("SELECT * FROM admin");
+
+
 ?>  
 
 <!DOCTYPE html>
@@ -25,8 +27,8 @@ $hitam = pelanggan("SELECT * FROM admin");
             <td><?= $i++; ?></td>
             <td><?= htmlspecialchars($htm["nama"]); ?></td>
             <td>
-                <a href="edit.php?id=<?= $htm['id']; ?>">Edit</a> |
-                <a href="hapus.php?id=<?= $htm['id']; ?>" onclick="return confirm('Yakin ingin menghapus?');">Hapus</a>
+                <a href="edit.php?edit=<?= $htm['id']; ?>">Edit</a> |
+                <a href="delete.php?id=<?= $htm['id']; ?>" onclick="return confirm('Yakin ingin menghapus?');">Hapus</a>
             </td>
         </tr> 
         <?php endforeach; ?>
