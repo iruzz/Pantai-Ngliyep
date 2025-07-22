@@ -11,7 +11,6 @@
 </head>
 <body>
 
-
     <div class="navbar">
         <h1>Pantai Ngliyep</h1>
         <ul>

@@ -60,4 +60,13 @@ function hapus($id) {
     return mysqli_affected_rows($conn);
 }
 
+function cari($keyword) {
+  
+    $query = "SELECT * FROM admin
+                WHERE
+                    nama LIKE '%$keyword%'
+                     ";
+     return pelanggan($query);
+}
+
 ?>
