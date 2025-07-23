@@ -8,6 +8,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #f4f9fb;
+    padding-top: 6rem;
     color: #333;
     line-height: 1.6;
    }
@@ -52,6 +53,7 @@ ul li a{
     color: #fff;
     font-size: 1.3rem;
 }
+
 
 /* Header area / banner */
 /* .background {
